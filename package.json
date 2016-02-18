@@ -1,0 +1,14 @@
+{
+  "author": {
+    "name": "Marc Juul",
+    "email": "npm@juul.io"
+  },
+  "name": "lsd",
+  "description": "LSD: Line Segment Detector",
+  "version": "0.0.1",
+  "homepage": "https://github.com/biobricks/lsd",
+  "bugs": {
+    "url": "https://github.com/biobricks/lsd"
+  },
+  "license": "AGPL-3.0",
+}
