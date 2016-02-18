@@ -6,9 +6,6 @@
   "name": "lsd",
   "description": "LSD: Line Segment Detector",
   "version": "0.0.1",
-  "homepage": "https://github.com/biobricks/lsd",
-  "bugs": {
-    "url": "https://github.com/biobricks/lsd"
-  },
+  "homepage": "https://github.com/biobricks/line-segment-detector",
   "license": "AGPL-3.0",
 }
