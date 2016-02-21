@@ -14,16 +14,18 @@ var Module = {
           
           ret = new Array();
           var i;
+          var curPtr = outPtr;
           for(i=0; i < resultCount; i++) {
               ret.push({
-                  a1: Module.getValue(outPtr, 'double'),
-                  a2: Module.getValue(outPtr+8, 'double'),
-                  a3: Module.getValue(outPtr+16, 'double'),
-                  a4: Module.getValue(outPtr+24, 'double'),
-                  a5: Module.getValue(outPtr+32, 'double'),
-                  a6: Module.getValue(outPtr+40, 'double'),
-                  a7: Module.getValue(outPtr+48, 'double'),
+                  x1: Module.getValue(curPtr, 'double'),
+                  y1: Module.getValue(curPtr+8, 'double'),
+                  x2: Module.getValue(curPtr+16, 'double'),
+                  y2: Module.getValue(curPtr+24, 'double'),
+                  width: Module.getValue(curPtr+32, 'double'),
+                  p: Module.getValue(curPtr+40, 'double'),
+                  minusLogNFA: Module.getValue(curPtr+48, 'double'),
               });
+              curPtr += 56;
           }
 
       } finally {

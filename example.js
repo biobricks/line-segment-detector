@@ -1,6 +1,6 @@
 #!/usr/bin/env nodejs
 
-var lsd = require('./lsd.js');
+var lsd = require('./index.js');
 
 var image = [];
 var width = 128;
