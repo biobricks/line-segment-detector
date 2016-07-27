@@ -7,7 +7,16 @@ Currently only the main lsd() function call is available.
 
 See example.js for usage.
 
-To re-compile this module first ensure that the official C version of lsd is extracted into lsd_1.6/ and that emcc is in your path. Then run:
+To re-compile this module first ensure that the official C version of lsd is extracted into lsd_1.6/ and that emcc is in your path. On a debian-based system something like this should work:
+
+```
+cd line-segment-detector/
+sudo apt-get install emscripten
+wget "http://www.ipol.im/pub/art/2012/gjmr-lsd/lsd_1.6.zip"
+unzip lsd_1.6.zip
+```
+
+Then run:
 
 ```
 ./build.sh
