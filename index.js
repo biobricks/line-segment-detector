@@ -1,3 +1,4 @@
+
 var Module = {
   lsd: function(image, width, height) {
       var ret;
@@ -16747,5 +16748,10 @@ run();
 // {{MODULE_ADDITIONS}}
 
 
+
+
+module.exports = Module;
+
+Module.inspect = function() { return '[Module Line-Segment-Detector]' }
 
 //@ sourceMappingURL=index.js.map

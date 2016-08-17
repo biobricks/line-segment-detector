@@ -1,3 +1,4 @@
 *~
 \#*\#
-node_modules/**
+pre_js.js
+index.js.map
