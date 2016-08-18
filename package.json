@@ -3,8 +3,12 @@
     "name": "Marc Juul",
     "email": "npm@juul.io"
   },
-  "name": "lsd",
-  "description": "LSD: Line Segment Detector",
+  "name": "line-segment-detector",
+  "description": "LSD: Line Segment Detector compiled to js with emscripten",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biobricks/line-segment-detector.git"
+  },
   "version": "0.0.2",
   "homepage": "https://github.com/biobricks/line-segment-detector",
   "license": "AGPL-3.0"
