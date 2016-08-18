@@ -1,4 +1,5 @@
 *~
 \#*\#
 pre_js.js
-index.js.map
+index.browserify.js.map
+index.standard.js.map

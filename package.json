@@ -9,7 +9,11 @@
     "type": "git",
     "url": "git://github.com/biobricks/line-segment-detector.git"
   },
-  "version": "0.0.3",
+  "browser": {
+      "ws": "./shims/ws.js"
+  },
+  "main": "./index.js",
+  "version": "0.0.4",
   "homepage": "https://github.com/biobricks/line-segment-detector",
   "license": "AGPL-3.0"
 }

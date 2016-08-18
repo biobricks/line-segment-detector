@@ -7,11 +7,9 @@ Currently only the main lsd() function call is available.
 
 See example.js
 
-To use with browserify use index.browserify.js instead of index.js.
-
 # Compiling
 
-You don't need to compile this unless you change the C code. Just use either index.js for use in node.js or directly in the browser or use index.browserify.js if you're using browserify
+You don't need to compile this unless you change the C code. Just use the pre-compiled index.js and index.*.js files.
 
 First install emscripten. On a Ubuntu 14.04 the following should work:
 
@@ -40,16 +38,10 @@ wget "http://www.ipol.im/pub/art/2012/gjmr-lsd/lsd_1.6.zip"
 unzip lsd_1.6.zip
 ```
 
-To build for node.js or for use in the directly in the browser:
+To build:
 
 ```
 ./build.sh
-```
-
-To build for use with browserify:
-
-```
-./build.sh browserify
 ```
 
 # License
