@@ -7,6 +7,8 @@ Currently only the main lsd() function call is available.
 
 See example.js
 
+To use with browserify use index.browserify.js instead of index.js.
+
 # Compiling
 
 You don't need to compile this unless you change the C code. Just use either index.js for use in node.js or directly in the browser or use index.browserify.js if you're using browserify

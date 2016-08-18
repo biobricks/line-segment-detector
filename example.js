@@ -1,6 +1,6 @@
-#!/usr/bin/env nodejs
+#!/usr/bin/env node
 
-var lsd = require('./index.browserify.js');
+var lsd = require('./index.js');
 
 var image = [];
 var width = 128;
